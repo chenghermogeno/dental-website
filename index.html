@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dental Website using Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./img/favicon.ico"/>
+
+</head>
+<body>
+
+
+<div class="main-container">
+  
+
+ <!-- navigation -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand mb-2 ps-5" href="#"><img src="./img/dental-logo.jpg" alt="All Smile Logo" width="200"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Book An Appointment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+       
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+ <!-- navigation -->
+
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/carousel-1.jpg">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>FREE Consultation</h1>
+            <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><a class="btn btn-lg btn-success" href="#">Book an Appointment</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel-2.jpg" >
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>You safety is our priority against COVID-19.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel-3.jpg" >
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Pediatric Dentistry.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <h1 class="display-6 text-center mb-2">Our Services</h1>
+      <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./img/circle-1.png" alt="X-ray" width="140" height="140"/>
+
+        <h2>Braces</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <img src="./img/circle-2.png" alt="X-ray" width="140" height="140"/>
+
+        <h2>X-ray</h2>
+        <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <img src="./img/circle-3.png" alt="X-ray" width="140" height="140"/>
+
+        <h2>Cleaning</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div><!-- /.col-lg-4 -->
+        <p class="text-center"><a class="btn btn-secondary btn-center" href="#">View More</a></p>
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Flexible Schedule. <span class="text-muted">Excepteur sint occaecat</span></h2>
+        <p class="lead mb-5">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a class="btn btn-lg btn-success" href="#">Book an Appointment</a></p>
+      </div>
+      <div class="col-md-5">
+        <img src="./img/dentist-1.jpg" class="img-fluid" alt="Doctor and Patient" width="500" height="500"/>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Cosmetic Dentistry. <span class="text-muted">Duis aute irure</span></h2>
+        <p class="lead mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a class="btn btn-lg btn-success" href="#">Read more</a></p>
+      </div>
+      <div class="col-md-5">
+        <img src="./img/dentist-2.jpg" class="img-fluid" alt="Doctor and Patient" width="500" height="500"/>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">We're Digitalized!<span class="text-muted">Ut enim ad minim veniam</span></h2>
+        <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a class="btn btn-lg btn-success" href="#">Inquire now</a></p>
+      </div>
+      <div class="col-md-5">
+        <img src="./img/dentist-3.jpg" class="img-fluid" alt="Doctor and Patient" width="500" height="500"/>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="servicePhotos container">
+    
+       
+          <img class="serviceImg img-fluid mx-auto" src="./img/400-1.jpg" class="bd-placeholder-img" alt="Doctor and Patient" width="420" />
+        
+      
+          <img class="serviceImg img-fluid mx-auto" src="./img/400-2.jpg" class="bd-placeholder-img" alt="Doctor and Patient" width="420"  />
+        
+       
+          <img class="serviceImg img-fluid mx-auto" src="./img/400-3.jpg" class="bd-placeholder-img" alt="Doctor and Patient" width="420" />
+       
+        <div class="dental-exp col-md-12 bg-success p-4 mt-2 text-center text-white border">
+        <h1>A Brighter Dental Care Experience!</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null.</p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+  <div class="review-intro text-dark lead text-center">
+    <h3 class="display-5 fw-bold">What Our Patients Are Saying:</h4>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-caption">
+          <div class="text-slider">
+            <h5 class="lead fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h5>
+            <p class="text-muted">Emma G.</p>
+          </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <div class="text-slider">
+          <h5 class="lead fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h5>
+          <p class="text-muted">Joan A.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <div class="text-slider">
+          <h5 class="lead fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h5>
+          <p class="text-muted">Gigi D.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.0463480075946!2d120.95424731553287!3d14.1333719901014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7940dc254b19%3A0x9476fa0b223a5ace!2sToothplace%20Dental%20Center!5e0!3m2!1sen!2sph!4v1637955128820!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class="col-md-3">
+        <img class="img-fluid" src="./img/dental-logo.jpg" alt="All Smile Logo" width="200">
+        <p class="featurette-address lead mt-5">Address:</p>
+          <p>All Smile Street, Philippine Village<br>Smile City, Metro Manila 1100</p>
+          <p>Tel nos:<br>(02) 888-8888<br>(02) 888-8889<br>(02) 888-8810</p>
+      </div>
+
+      <div class="col-md-3 order-md-2 mt-5 pt-5">
+        <p class="featurette-clinic lead">Clinic Hours:</p>
+          <dl class="row">
+            <dt class="col-sm-3">Mon</dt>
+            <dd class="col-sm-9">10:00am-7:00pm</dd>
+
+            <dt class="col-sm-3">Tue</dt>
+            <dd class="col-sm-9">09:00am-6:00pm</dd>
+
+            <dt class="col-sm-3">Wed</dt>
+            <dd class="col-sm-9">09:00am-6:00pm</dd>
+
+            <dt class="col-sm-3">Thu</dt>
+            <dd class="col-sm-9">09:00am-6:00pm</dd>
+
+            <dt class="col-sm-3">Fri</dt>
+            <dd class="col-sm-9">08:00am-4:00pm</dd>
+          </dl>
+      </div>
+    </div>
+
+
+
+  
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container mt-5 pt-5">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+   <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>
